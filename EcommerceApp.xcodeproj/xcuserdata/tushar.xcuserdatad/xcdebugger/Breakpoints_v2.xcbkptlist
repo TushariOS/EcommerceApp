@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6BA60533-28C4-4060-A368-E12F5D5CC9F8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D266D938-5531-4380-9528-439470E3E9BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceApp/FavoriteView/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D266D938-5531-4380-9528-439470E3E9BB - 2401d75470f6f7d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt;&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in EcommerceApp.FavoriteView.body.getter : some"
+                  moduleName = "EcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tushar/Documents/STudy/EcommerceApp/EcommerceApp/FavoriteView/FavoriteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "D266D938-5531-4380-9528-439470E3E9BB - 2fbe3741f6502fa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; EcommerceApp.ProductView1 in closure #2 (Swift.Int) -&gt; SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt;&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView1, EcommerceApp.ProductDetailView&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in EcommerceApp.FavoriteView.body.getter : some"
+                  moduleName = "EcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tushar/Documents/STudy/EcommerceApp/EcommerceApp/FavoriteView/FavoriteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36CB5383-148E-4DB5-98CA-B5E942671951"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceApp/FavoriteView/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init(viewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7496A5B-0C51-415F-8E1D-FF60C408C755"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceApp/FavoriteView/Favourites.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D7496A5B-0C51-415F-8E1D-FF60C408C755 - 894f3423226baf37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0&gt; in EcommerceApp.FavouriteView.body.getter : some"
+                  moduleName = "EcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tushar/Documents/STudy/EcommerceApp/EcommerceApp/FavoriteView/Favourites.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "D7496A5B-0C51-415F-8E1D-FF60C408C755 - 8319e188cbbd0906"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EcommerceApp.Product) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.NavigationLink&lt;EcommerceApp.ProductView, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0&gt; in EcommerceApp.FavouriteView.body.getter : some"
+                  moduleName = "EcommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tushar/Documents/STudy/EcommerceApp/EcommerceApp/FavoriteView/Favourites.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
