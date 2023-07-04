@@ -24,7 +24,6 @@ struct ProductsListView: View {
         NavigationView {
             GeometryReader { proxy in
                 ScrollView {
-                    // LazyVGrid(columns: createGridItems(), spacing: 0) {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: proxy.size.width / 2 - 4, maximum: 300), spacing: 8)], spacing: 4, content: {
                         ForEach(0..<viewModel.products.count, id: \.self) { index in
                             NavigationLink(destination: ProductDetailView(product: $viewModel.products[index]).onAppear{
@@ -34,7 +33,6 @@ struct ProductsListView: View {
                             }, label: {
                                 ProductView(product: $viewModel.products[index])
                                     .frame(width: proxy.size.width / 2 - 8)
-                                // .clipped()
                             })
                         }
                     })

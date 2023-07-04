@@ -51,7 +51,8 @@ struct BottomTabBar: View {
                     }
                 }
             }
-        } .onAppear {
+        }
+        .onAppear {
             viewModel.getProducts()
         }
     }

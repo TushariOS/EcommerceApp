@@ -19,15 +19,14 @@ class ProductViewModel: ObservableObject {
         let urlString = Constant.productListAPI
         guard let  url = URL(string: urlString) else { return }
         URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
-            
-            DispatchQueue.main.asyncAfter(deadline: .now()) {
+            DispatchQueue.main.async {
                 if let statusCode = (response as? HTTPURLResponse)?.statusCode, statusCode >= 400 {
                     self?.isLoading = false
                     self?.errorMessage = "Bad Request \(statusCode)"
                     return
                 }
-                
                 guard let data = data else { return }
+                
                 do {
                     self?.productList = try JSONDecoder().decode(ProductList.self, from: data)
                     if let product = self?.productList?.products {
@@ -38,11 +37,16 @@ class ProductViewModel: ObservableObject {
                     debugPrint("error", error.localizedDescription)
                     self?.errorMessage = error.localizedDescription
                 }
+                
                 self?.isLoading = false
             }
-        }.resume()
+        }
+        .resume()
     }
     
+    /// Product Price
+    /// - Parameter product: Product
+    /// - Returns: Price in string
     func productPrice(product: Product) -> String {
         if let price = product.price.first {
             return price.value.stringValue

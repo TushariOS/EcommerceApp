@@ -19,7 +19,6 @@ struct ProductView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(height: 200)
-                    //.clipped()
             } placeholder: {
                 Image("placeholder")
                     .resizable()
@@ -51,7 +50,9 @@ struct ProductView: View {
                 .frame(width: 100, height: 44)
                 .shadow(radius: 3)
                 .padding(.leading, 5)
+                
                 Spacer()
+                
                 Button(action: {
                     // Toggle favorite action
                     toggleFavorite(product.id)
@@ -60,13 +61,13 @@ struct ProductView: View {
                         .foregroundColor(product.isInWishlist ? .red : .gray)
                         .foregroundColor(.white)
                         .font(.system(size: 18, weight: .regular))
-                        //.padding()
                 })
                 .frame(width: 44, height: 44)
                 .background(Color.white)
                 .clipShape(Circle())
                 .shadow(radius: 3)
                 .padding()
+                
             }.padding(.bottom, 5)
         }
         .background(Color.white)
@@ -82,15 +83,3 @@ struct ProductView: View {
         }
     }
 }
-/*
- VStack {
- ActivityIndicatiorView()
- Text("Loading")
- .foregroundColor(.white)
- .font(.system(size: 16, weight: .semibold))
- }
- .padding()
- .background(Color.gray)
- .cornerRadius(8)
- 
- */

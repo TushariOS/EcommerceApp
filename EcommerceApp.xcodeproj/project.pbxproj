@@ -100,11 +100,11 @@
 			children = (
 				781ED0AF2A52F3B80047CBF9 /* EcommerceAppApp.swift */,
 				78FCA5282A53516C007DF945 /* Home */,
-				78FCA5232A53506D007DF945 /* FavoriteView */,
-				78FCA50D2A52FD2B007DF945 /* Utility */,
-				781ED0BF2A52F3F80047CBF9 /* ProductsListView */,
 				78FCA5222A534D0D007DF945 /* ProductDetailView */,
-				781ED0BE2A52F3DE0047CBF9 /* APIMananger */,
+				78FCA5232A53506D007DF945 /* FavoriteView */,
+				781ED0BF2A52F3F80047CBF9 /* ProductsListView */,
+				78FCA50D2A52FD2B007DF945 /* Utility */,
+				783896C22A54619C00ABA20D /* ViewModel */,
 				781ED0BD2A52F3D60047CBF9 /* Model */,
 				781ED0B32A52F3B90047CBF9 /* Assets.xcassets */,
 				781ED0B52A52F3B90047CBF9 /* Preview Content */,
@@ -128,21 +128,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		781ED0BE2A52F3DE0047CBF9 /* APIMananger */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIMananger;
-			sourceTree = "<group>";
-		};
 		781ED0BF2A52F3F80047CBF9 /* ProductsListView */ = {
 			isa = PBXGroup;
 			children = (
 				78FCA51C2A5342D4007DF945 /* ProductsListView.swift */,
 				78FCA51E2A534361007DF945 /* ProductView.swift */,
-				78FCA50B2A52FCDE007DF945 /* ProductViewModel.swift */,
 			);
 			path = ProductsListView;
+			sourceTree = "<group>";
+		};
+		783896C22A54619C00ABA20D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78FCA50B2A52FCDE007DF945 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		78FCA50D2A52FD2B007DF945 /* Utility */ = {
@@ -266,7 +266,6 @@
 			);
 			mainGroup = 781ED0A32A52F3B80047CBF9;
 			packageReferences = (
-				78FCA5142A530AD9007DF945 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 781ED0AD2A52F3B80047CBF9 /* Products */;
 			projectDirPath = "";
@@ -573,17 +572,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		78FCA5142A530AD9007DF945 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 781ED0A42A52F3B80047CBF9 /* Project object */;
 }
