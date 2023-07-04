@@ -32,14 +32,14 @@ struct FavouriteView: View {
                     GeometryReader { proxy in
                         ScrollView {
                             LazyVGrid(columns: [GridItem(.adaptive(minimum: proxy.size.width / 2 - 4, maximum: 300), spacing: 8)], spacing: 4, content: {
-                                ForEach(0..<$viewModel.products.filter{$0.isInWishlist}.count, id: \.self) { index in
-                                    NavigationLink(destination: ProductDetailView(product: $viewModel.products.filter{$0.isInWishlist}[index])
+                                ForEach($viewModel.products.filter{$0.isInWishlist}, id: \.self) { product in
+                                    NavigationLink(destination: ProductDetailView(product: product)
                                         .onAppear{
                                             self.hasTitle = false
                                         }.onDisappear{
                                             self.hasTitle = true
                                         }, label: {
-                                            ProductView(product: $viewModel.products.filter{$0.isInWishlist}[index])
+                                            ProductView(product: product)
                                         })
                                 }
                             })

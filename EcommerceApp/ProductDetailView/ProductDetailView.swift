@@ -6,20 +6,17 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct ProductDetailView: View {
     @Binding var product: Product
     var body: some View {
         ScrollView {
-            AsyncImage(url: URL(string: product.imageURL)) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 300)
-                    .clipped()
-            } placeholder: {
-                ProgressView()
-            }
+            KFImage(URL(string: product.imageURL))
+                .resizable()
+                .scaledToFit()
+                .frame(height: 300)
+                .clipped()
             
             VStack(alignment: .leading, spacing: 10) {
                 Text(product.title)
@@ -70,4 +67,3 @@ struct ProductDetailView: View {
         self.product.isInWishlist.toggle()
     }
 }
-                                                                                      

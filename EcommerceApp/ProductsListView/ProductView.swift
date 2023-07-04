@@ -6,7 +6,14 @@
 //
 
 import SwiftUI
-
+import Kingfisher
+/*
+ placeholder: {
+     Image("placeholder")
+         .resizable()
+         .scaledToFit()
+ }
+ */
 struct ProductView: View {
     
     // let product: Product
@@ -14,16 +21,10 @@ struct ProductView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
-            AsyncImage(url: URL(string: product.imageURL)) { image in
-                image
+            KFImage( URL(string: product.imageURL))
                     .resizable()
                     .scaledToFit()
                     .frame(height: 200)
-            } placeholder: {
-                Image("placeholder")
-                    .resizable()
-                    .scaledToFit()
-            }
             
             Text(product.title)
                 .font(.system(size: 12, weight: .bold))
