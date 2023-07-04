@@ -8,7 +8,6 @@
 import Foundation
 
 extension Double {
-    
     /// stringValue
     var stringValue: String {
         return "$\(String(format: "%.2f", self))"

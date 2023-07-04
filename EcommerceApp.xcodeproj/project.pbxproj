@@ -15,7 +15,6 @@
 		78FCA50C2A52FCDE007DF945 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA50B2A52FCDE007DF945 /* ProductViewModel.swift */; };
 		78FCA50F2A52FD38007DF945 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA50E2A52FD38007DF945 /* Constant.swift */; };
 		78FCA5112A52FE53007DF945 /* ActivityIndicatiorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA5102A52FE53007DF945 /* ActivityIndicatiorView.swift */; };
-		78FCA5132A53020B007DF945 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA5122A53020B007DF945 /* NavigationLazyView.swift */; };
 		78FCA51B2A533E26007DF945 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA51A2A533E26007DF945 /* ProductDetailView.swift */; };
 		78FCA51D2A5342D4007DF945 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA51C2A5342D4007DF945 /* ProductsListView.swift */; };
 		78FCA51F2A534361007DF945 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FCA51E2A534361007DF945 /* ProductView.swift */; };
@@ -46,7 +45,6 @@
 		78FCA50B2A52FCDE007DF945 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		78FCA50E2A52FD38007DF945 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		78FCA5102A52FE53007DF945 /* ActivityIndicatiorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatiorView.swift; sourceTree = "<group>"; };
-		78FCA5122A53020B007DF945 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		78FCA51A2A533E26007DF945 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		78FCA51C2A5342D4007DF945 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		78FCA51E2A534361007DF945 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 			children = (
 				78FCA50E2A52FD38007DF945 /* Constant.swift */,
 				78FCA5102A52FE53007DF945 /* ActivityIndicatiorView.swift */,
-				78FCA5122A53020B007DF945 /* NavigationLazyView.swift */,
 				78FCA5202A5348D6007DF945 /* Double+Extension.swift */,
 				78FCA5452A53FF72007DF945 /* Binding+Extension.swift */,
 			);
@@ -312,7 +309,6 @@
 				781ED0B02A52F3B80047CBF9 /* EcommerceAppApp.swift in Sources */,
 				78FCA5252A53509A007DF945 /* Favourites.swift in Sources */,
 				78FCA52A2A5351A7007DF945 /* BottomTabBar.swift in Sources */,
-				78FCA5132A53020B007DF945 /* NavigationLazyView.swift in Sources */,
 				78FCA50F2A52FD38007DF945 /* Constant.swift in Sources */,
 				78FCA5462A53FF72007DF945 /* Binding+Extension.swift in Sources */,
 				78FCA50C2A52FCDE007DF945 /* ProductViewModel.swift in Sources */,

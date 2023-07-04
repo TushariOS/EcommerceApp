@@ -7,16 +7,10 @@
 
 import SwiftUI
 import Kingfisher
-/*
- placeholder: {
-     Image("placeholder")
-         .resizable()
-         .scaledToFit()
- }
- */
+
 struct ProductView: View {
     
-    // let product: Product
+    /// Product
     @Binding var product: Product
     
     var body: some View {
