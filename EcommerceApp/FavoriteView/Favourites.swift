@@ -50,9 +50,3 @@ struct FavouriteView: View {
         }
     }
 }
-
-//struct FavoriteView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FavoriteView(viewModel: ProductListViewModel())
-//    }
-//}
